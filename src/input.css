@@ -1,0 +1,14 @@
+@tailwind base;
+
+@layer base {
+    .selected {
+        background-color: hsla(0, 0%, 0%, 0.4);
+    }
+    .background-islamic {
+        background-image: url(/images/background.jpg);
+        opacity: 0.3;
+    }
+  }
+
+@tailwind components;
+@tailwind utilities;
